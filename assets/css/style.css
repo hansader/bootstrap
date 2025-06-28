@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+h2 {
+  font-weight: 700;
+  color: #cc3366;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url('assets/image/1.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-section h2,
+.hero-section p {
+  color: #fff;
+}
+
+/* Header */
+header h1 {
+  font-family: 'Georgia', serif;
+  color: #cc3366;
+}
+
+.nav-link:hover {
+  color: #cc3366 !important;
+}
+
+/* Events Cards */
+.card img {
+  max-height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  color: #cc3366;
+  font-weight: bold;
+}
+
+/* Gallery */
+#gallery img {
+  transition: transform 0.3s ease;
+}
+
+#gallery img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* RSVP */
+form .btn-primary {
+  background-color: #cc3366;
+  border: none;
+}
+
+form .btn-primary:hover {
+  background-color: #b32d5b;
+}
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+}
+
+@media (max-width: 768px) {
+  .w-50 {
+    width: 90% !important;
+  }
+}
